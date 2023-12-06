@@ -1,0 +1,52 @@
+  .container {
+    display: flex;
+    max-width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f0f0f0;
+  }
+
+  .text-box {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .text-box.left {
+    order: 1;
+  }
+
+  .text-box.right {
+    order: 3;
+  }
+
+  .image-container {
+    flex: 1;
+    overflow: hidden;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .text-box.center {
+    order: 2;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }

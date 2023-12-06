@@ -1,0 +1,29 @@
+.wireframe-container {
+    display: flex;
+    max-width: 800px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+  }
+
+  .wireframe-image-container {
+    flex: 1;
+    overflow: hidden;
+  }
+
+  .wireframe-image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .wireframe-text-container {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .wireframe-text-box {
+    margin-bottom: 15px;
+  }
